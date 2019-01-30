@@ -12,22 +12,22 @@ p {
 
 h1 {
   color: #66BFBF;
-  width: 25%;
   margin: 50px auto 0 auto;
   font-family: 'Handlee', cursive;
-  font-size: 4.5rem;
+  font-size: 2rem;
+  max-width: 100%;
 }
 
 h2 {
   color: #66BFBF;
   font-family: 'Handlee', cursive;
-  font-size: 2.5rem;
+  font-size: 1.4rem;
 }
 
 h3 {
   color: #11999E;
   font-family: 'Handlee', cursive;
-  font-size: 2rem;
+  font-size: 1rem;
   text-align: left;
 }
 
@@ -54,7 +54,6 @@ a:hover {
   background-color: #f5f5f5;
   position: relative;
   padding-top: 100px;
-  position: relative;
 }
 
 .bottom-cloud {
@@ -71,10 +70,11 @@ a:hover {
 
 .middle-container {
   padding-top: 100px;
+  margin: auto;
 }
 
 .skill-row {
-  width: 50%;
+  width: 70%;
   margin: 120px auto;
 }
 
@@ -100,7 +100,7 @@ a:hover {
 }
 
 .profile {
-  width: 50%;
+  width: 70%;
   margin: auto;
 }
 
@@ -131,7 +131,6 @@ hr {
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
-  padding: 1rem;
 }
 
 .btn:hover {
@@ -174,4 +173,14 @@ em {
   color: #fc5185;
   font-style: normal;
   font-weight: bold;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+img {
+  max-width: 100%;
 }
